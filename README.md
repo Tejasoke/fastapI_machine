@@ -45,9 +45,10 @@ Each Product belongs to one Category.
    ```bash
    pip install fastapi uvicorn sqlalchemy psycopg2-binary
    ```
-3. Ensure PostgreSQL is running and the database exists:
-   - URL: `postgresql://postgres:root@localhost:5432/fastapi_machine`
-   - Create the database if needed:
+3. Ensure PostgreSQL Username and password is correct and the database exists:
+   - URL: `postgresql://usernam:password@localhost:5432/fastapi_machine`
+   - ensure username and password are entered otherwise database will not connect
+   -  Create the database if needed:
      ```bash
      createdb -U postgres fastapi_machine
      ```
