@@ -18,7 +18,7 @@
 ### Product
 - `GET /api/products?page=1` - list products
 - `POST /api/products` - create product
-- `GET /api/products/{id}` - fetch product by ID (includes category details)
+- `GET /api/products/{id}` - fetch product by ID 
 - `PUT /api/products/{id}` - update product by ID
 - `DELETE /api/products/{id}` - delete product by ID
 
