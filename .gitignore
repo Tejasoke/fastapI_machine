@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Database files (if any local sqlite fallback used)
+*.db
+
+# Docker (optional ignore if not using tracking)
+docker-compose.override.yml
+
+# Uvicorn / FastAPI reload artifacts
+*.pid
+
+# Coverage reports
+htmlcov/
+.coverage
