@@ -38,7 +38,7 @@ Each Product belongs to one Category.
 ## Run Instructions
 1. Create and activate virtual environment:
    ```bash
-   cd /Users/tejasoke/Downloads/project/fastapi_machine
+   cd fastapi_machine
    source bin/activate
    ```
 2. Install dependencies:
@@ -53,6 +53,6 @@ Each Product belongs to one Category.
      ```
 4. Start the application:
    ```bash
-   uvicorn main:app --reload --host 0.0.0.0 --port 8000
+   uvicorn main:app --reload
    ```
 5. Open docs at `http://127.0.0.1:8000/docs`
